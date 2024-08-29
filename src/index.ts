@@ -78,7 +78,20 @@ async function parseJsonFromUrls(urls: string[]) {
                 })
             });
             const data = new Maniiifest(response.data);
-            console.log(`${url}:`, data.getManifestLabel());
+            const specType = data.getSpecificationType();
+            let id;
+            if (specType === 'Manifest') {
+                id = data.getManifestId();
+            } else if (specType === 'Collection') {
+                id = data.getCollectionId();
+            } else {
+                throw new Error(`Unknown specification type: ${specType}`);
+            }
+            if (id === url) {
+                console.log(`${specType} => ${url}`);
+            } else {
+                throw new Error(`ID does not match URL for ${url}: ${id}`);
+            }
         } catch (error) {
             console.error(`Error fetching or parsing data from ${url}:`, error);
         }
