@@ -5,7 +5,7 @@ import { Maniiifest } from 'maniiifest';
 const urls = [
     // cookbook manifests/collections
     'https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json',
-    // 'https://iiif.io/api/cookbook/recipe/0002-mvm-audio/manifest.json',
+    'https://iiif.io/api/cookbook/recipe/0002-mvm-audio/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0003-mvm-video/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0004-canvas-size/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json',
@@ -22,7 +22,7 @@ const urls = [
     'https://iiif.io/api/cookbook/recipe/0117-add-image-thumbnail/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0232-image-thumbnail-canvas/manifest-av.json',
     'https://iiif.io/api/cookbook/recipe/0013-placeholderCanvas/manifest.json',
-    // 'https://iiif.io/api/cookbook/recipe/0014-accompanyingcanvas/manifest.json',
+    'https://iiif.io/api/cookbook/recipe/0014-accompanyingcanvas/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0202-start-canvas/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0015-start/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0230-navdate/navdate-collection.json',
