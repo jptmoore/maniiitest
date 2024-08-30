@@ -16,7 +16,7 @@ const urls = [
     'https://iiif.io/api/cookbook/recipe/0008-rights/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0009-book-1/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0011-book-3-behavior/manifest-continuous.json',
-    // 'https://iiif.io/api/cookbook/recipe/0299-region/manifest.json', // https://github.com/jptmoore/maniiifest/issues/4
+    'https://iiif.io/api/cookbook/recipe/0299-region/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0010-book-2-viewing-direction/manifest-rtl.json',
     'https://iiif.io/api/cookbook/recipe/0283-missing-image/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0117-add-image-thumbnail/manifest.json',
