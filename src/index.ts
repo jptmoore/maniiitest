@@ -66,6 +66,7 @@ const urls = [
 
     // manifests/collections in the wild
     'https://iiif.wellcomecollection.org/presentation/b19974760',
+    'https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll1v3/37',
     // 'https://t-pen.org/TPEN/manifest/2483?version=3' // https://github.com/jptmoore/maniiifest/issues/1
 ];
 
