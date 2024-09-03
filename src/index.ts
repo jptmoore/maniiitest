@@ -46,7 +46,7 @@ const urls = [
     'https://iiif.io/api/cookbook/recipe/0269-embedded-or-referenced-annotations/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0306-linking-annotations-to-manifests/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/manifest.json',
-    // 'https://iiif.io/api/cookbook/recipe/0346-multilingual-annotation-body/manifest.json', // https://github.com/jptmoore/maniiifest/issues/6
+    'https://iiif.io/api/cookbook/recipe/0346-multilingual-annotation-body/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0024-book-4-toc/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0026-toc-opera/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0030-multi-volume/collection.json',
