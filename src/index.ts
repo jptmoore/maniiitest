@@ -42,7 +42,7 @@ const urls = [
     'https://iiif.io/api/cookbook/recipe/0022-linking-with-a-hotspot/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0326-annotating-image-layer/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0135-annotating-point-in-canvas/manifest.json',
-    // 'https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/manifest.json', // https://github.com/jptmoore/maniiifest/issues/5
+    'https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0269-embedded-or-referenced-annotations/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0306-linking-annotations-to-manifests/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/manifest.json',
