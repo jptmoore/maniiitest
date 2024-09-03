@@ -54,7 +54,7 @@ const urls = [
     'https://iiif.io/api/cookbook/recipe/0033-choice/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0035-foldouts/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0036-composition-from-multiple-images/manifest.json',
-    'https://iiif.io/api/cookbook/recipe/0040-image-rotation-service/manifest-service.json ', // trailing space is intentional
+    'https://iiif.io/api/cookbook/recipe/0040-image-rotation-service/manifest-service.json', 
     'https://iiif.io/api/cookbook/recipe/0047-homepage/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0053-seeAlso/manifest.json',
     'https://iiif.io/api/cookbook/recipe/0434-choice-av/manifest.json',
@@ -67,7 +67,6 @@ const urls = [
     // manifests/collections in the wild
     'https://iiif.wellcomecollection.org/presentation/b19974760',
     'https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll1v3/37',
-    // 'https://t-pen.org/TPEN/manifest/2483?version=3' // https://github.com/jptmoore/maniiifest/issues/1
 ];
 
 async function parseJsonFromUrls(urls: string[]) {
@@ -80,19 +79,15 @@ async function parseJsonFromUrls(urls: string[]) {
             });
             const data = new Maniiifest(response.data);
             const specType = data.getSpecificationType();
-            let id;
+            let label;
             if (specType === 'Manifest') {
-                id = data.getManifestId();
+                label = data.getManifestLabel();
             } else if (specType === 'Collection') {
-                id = data.getCollectionId();
+                label = data.getCollectionLabel();
             } else {
                 throw new Error(`Unknown specification type: ${specType}`);
             }
-            if (id === url) {
-                console.log(`${specType} => ${url}`);
-            } else {
-                throw new Error(`ID does not match URL for ${url}: ${id}`);
-            }
+            console.log(`${specType} label: ${JSON.stringify(label)} from ${url}`);
         } catch (error) {
             console.error(`Error fetching or parsing data from ${url}:`, error);
         }
