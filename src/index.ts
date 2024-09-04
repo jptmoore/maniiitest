@@ -79,6 +79,9 @@ const urls = [
     'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/wellcome-collection.json',
     'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/wellcome-p3-2.json',
     // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/wellcome-p3.json', // missing id in service
+    'https://digital.lib.utk.edu/assemble/collection/collections/rfta',
+    'https://digital.lib.utk.edu/assemble/collection/collections/rftaart',
+    'https://digital.lib.utk.edu/assemble/collection/collections/insurancena'
 ];
 
 async function parseJsonFromUrls(urls: string[]) {
