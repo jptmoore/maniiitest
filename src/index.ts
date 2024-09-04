@@ -68,7 +68,7 @@ const urls = [
     'https://iiif.wellcomecollection.org/presentation/b19974760',
     'https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll1v3/37',
     'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/accompanying-canvas.json',
-    // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/bl-ranges.json', // service @id missing,
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/bl-ranges.json',
     'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/bodleian.json',
     // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/exhibition-1.json', // service should be list
     'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/ghent-choices.json',
