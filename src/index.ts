@@ -67,6 +67,18 @@ const urls = [
     // manifests/collections in the wild
     'https://iiif.wellcomecollection.org/presentation/b19974760',
     'https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll1v3/37',
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/accompanying-canvas.json',
+    // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/bl-ranges.json', // service @id missing,
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/bodleian.json',
+    // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/exhibition-1.json', // service should be list
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/ghent-choices.json',
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/has-part.json',
+    // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/ocean-liners.json', // missing id in AnnotationPage
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/specific-resource-infer.json',
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/start-canvas.json',
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/wellcome-collection.json',
+    'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/wellcome-p3-2.json',
+    // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/wellcome-p3.json', // missing id in service
 ];
 
 async function parseJsonFromUrls(urls: string[]) {
