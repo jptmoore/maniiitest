@@ -81,7 +81,9 @@ const urls = [
     // 'https://raw.githubusercontent.com/IIIF-Commons/parser/main/fixtures/presentation-3/wellcome-p3.json', // missing id in service
     'https://digital.lib.utk.edu/assemble/collection/collections/rfta',
     'https://digital.lib.utk.edu/assemble/collection/collections/rftaart',
-    'https://digital.lib.utk.edu/assemble/collection/collections/insurancena'
+    'https://digital.lib.utk.edu/assemble/collection/collections/insurancena',
+    'https://api.dc.library.northwestern.edu/api/v2/collections?as=iiif&size=1',
+    'https://api.dc.library.northwestern.edu/api/v2/works/e40479c4-06cb-48be-9d6b-adf47f238852?as=iiif'
 ];
 
 async function parseJsonFromUrls(urls: string[]) {
