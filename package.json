@@ -4,7 +4,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.5.1",
-    "maniiifest": "^1.2.0",
+    "maniiifest": "^1.2.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
